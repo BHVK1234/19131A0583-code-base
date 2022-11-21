@@ -1,9 +1,15 @@
 def NthSmallest(K):
     a=1
-    count=0
+    count=1
+    ans=1
     while(count!=K):
-        i=0
-        while(i=0):
-            
+        st=str(a)
+        if st.count("0")+st.count("1")+st.count("6")+st.count("8")+st.count("9")++st.count("1")==len(st):
+            count+=1
+            ans=a
+            a+=1
+        else:
+            a+=1
+    return ans            
 num=int(input())
 print(NthSmallest(num))
