@@ -4,7 +4,7 @@ def NthSmallest(K):
     ans=1
     while(count!=K):
         st=str(a)
-        if st.count("0")+st.count("1")+st.count("6")+st.count("8")+st.count("9")++st.count("1")==len(st):
+        if st.count("0")+st.count("1")+st.count("6")+st.count("8")+st.count("9")++st.count("2")==len(st):
             count+=1
             ans=a
             a+=1
